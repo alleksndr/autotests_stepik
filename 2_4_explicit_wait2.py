@@ -6,7 +6,6 @@ import math
 import time
 
 browser = webdriver.Chrome()
-# говорим WebDriver ждать все элементы в течение 5 секунд
 browser.implicitly_wait(15)
 
 try:
